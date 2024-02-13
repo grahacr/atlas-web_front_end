@@ -507,7 +507,7 @@ ul.row {
     float: left;
     padding: 0.5rem;
 }
-.row + *::after {
+.row::after {
     display: table;
     content: "";
     clear: both;
