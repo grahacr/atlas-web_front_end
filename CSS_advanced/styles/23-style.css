@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-[.social-link] > svg {
+.social-link > svg {
     color: var(--text-color);
 }
 ul.row {
