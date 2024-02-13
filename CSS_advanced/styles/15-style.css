@@ -349,7 +349,7 @@ template {
 }
 
 /* 1-style.css */
-.box {
+*, *::before, *::after {
     box-sizing: content-box;
 }
 html {
