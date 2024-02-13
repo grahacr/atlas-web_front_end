@@ -474,7 +474,9 @@ h1, h2, h3, h4, h5, h6 {
 .social-link {
     display: block; 
 }
-
+.social-link > svg {
+    fill: var(--text-color);
+}
 .navbar-menu {
     float: right;   
 }
@@ -498,9 +500,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
-}
-.social-link > svg {
-    color: var(--text-color);
 }
 ul.row {
     margin: 0;
