@@ -350,7 +350,7 @@ template {
 
 /* 1-style.css */
 *, *::before, *::after {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;
