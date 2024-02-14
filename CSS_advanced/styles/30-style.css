@@ -629,8 +629,8 @@ ul.row {
 }
 .card-work .card-title a::after {
     position: absolute;
-    position: 0;
     content: "";
+    margin: 0;
 }
 .card-work:hover .card-title {
     opacity: 1;
