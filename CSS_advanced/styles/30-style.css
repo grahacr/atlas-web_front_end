@@ -605,6 +605,7 @@ ul.row {
     width: 100%;
     object-fit: cover;
     bottom: 0;
+    position: absolute;
 }
 .card-work .card-inner {
     position: absolute;
