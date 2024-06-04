@@ -1,0 +1,10 @@
+/* */
+
+$basefontsize: 1px;
+$headings: 5;
+
+@for $i from 1 through $headings {
+  h#{$i} {
+    font-size: $basefontsize * $i;
+  }
+}
