@@ -1,0 +1,9 @@
+/* assign text color utilizing nested declarations on hover psuedoclass*/
+
+button {
+  color: #FF0000;
+
+  &:hover {
+    color: #00FF00;
+  }
+}
