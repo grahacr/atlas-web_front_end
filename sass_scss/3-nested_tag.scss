@@ -1,12 +1,11 @@
 /* no margin or padding in body tags, but adjust p tag margins inside body */
 /* utilizing nested declarations */
 
-$p-margin: 10;
 
 body {
   margin: 0px;
   padding: 0px;
   p {
-    margin: $p-margin;
+    margin: 10px;
   }
 }
