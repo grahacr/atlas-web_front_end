@@ -1,0 +1,19 @@
+/* utilize mixin to set margins to body and div tags*/
+
+@mixin body-margins {
+  margin-left: 10;
+  margin-right: 10;
+}
+
+@mixin div-margins {
+  margin-left: 15;
+  margin-right: 15;
+}
+
+body {
+  @include body-margins;
+}
+
+div {
+  @include div-margins;
+}
