@@ -1,0 +1,10 @@
+/* assign test colors using nested declarations 
+must assign different text color to child of class .red*/
+
+body {
+  color: #3D3D3D;
+
+  .red:first-child {
+    color: #FF0000;
+  }
+}
