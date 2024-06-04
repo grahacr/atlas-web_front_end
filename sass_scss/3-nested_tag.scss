@@ -1,0 +1,14 @@
+/* no margin or padding in body tags, but adjust p tag margins inside body */
+/* utilizing nested declarations */
+
+$default-margin: 0;
+$default-padding: 0;
+$p-margin: 10;
+
+body {
+  margin: $default-margin;
+  padding: $default-padding;
+  p {
+    margin: $p-margin;
+  }
+}
